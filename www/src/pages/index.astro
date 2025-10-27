@@ -2,6 +2,7 @@
 import Header from "../components/Header.tsx";
 import FeaturesBanner from "../components/FeaturesBanner.tsx";
 import IPLookup from "../components/IPLookup.tsx";
+import MCPSection from "../components/MCPSection.tsx";
 import "../styles/global.css";
 ---
 
@@ -26,11 +27,12 @@ import "../styles/global.css";
 			<div class="max-w-4xl mx-auto p-6 space-y-6">
 				<FeaturesBanner />
 				<IPLookup client:load />
+				<MCPSection />
 
 				<!-- Footer -->
-				<div class="text-center py-8">
+				<div class="text-center py-8 mt-8">
 					<p class="text-gray-600 text-sm">
-						Built with ❤️ using AWS IP ranges data •
+						Built with ❤️ using AWS IP ranges data and Kiro •
 						<a
 							href="https://ip-ranges.amazonaws.com/ip-ranges.json"
 							target="_blank"

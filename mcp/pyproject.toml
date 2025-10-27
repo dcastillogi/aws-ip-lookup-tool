@@ -1,0 +1,10 @@
+[project]
+name = "aws-ip-lookup-tool"
+version = "0.1.0"
+description = "MCP server for AWS IP range lookup"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.19.0",
+]

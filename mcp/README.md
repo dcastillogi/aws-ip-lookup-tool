@@ -53,8 +53,8 @@ Replace `/full/path/to/aws-ip-lookup-tool/mcp` with the actual path where you cl
 ### 5. Restart Claude Desktop
 
 Close and reopen Claude Desktop to load the new configuration.
-## Us
-age
+
+## Usage
 
 Once configured, you can use the tool in Claude Desktop:
 
